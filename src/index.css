@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+
+@layer base {
+  #root {
+    @apply h-full w-full overflow-x-hidden bg-gray-100 flex flex-col items-center justify-center;
+  }
+}
