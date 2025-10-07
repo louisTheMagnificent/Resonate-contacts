@@ -1,20 +1,30 @@
 # Resonate-contacts
 
-A simple responsive contacts app built with React and TailwindCSS.
+A simple responsive contacts app built with **React**, **Vite**, and **TailwindCSS**.  
+The app fetches user data from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users),  
+allowing you to browse, search, and view detailed contact information.
 
-# React + Vite
+# How to run on local server
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 1. Install Dependencies
 
-Currently, two official plugins are available:
+Before running the project, make sure you have **Node.js (v20.19.0 or higher)** and **npm (v10.0.0 or higher)** installed.  
+Vite (v7.1.7) and all other dependencies will be automatically installed via:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+npm install
+```
 
-## React Compiler
+### 2. Start Development Server
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Once the installation is complete, start the local dev server:
 
-## Expanding the ESLint configuration
+```bash
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Then open the link shown in your terminal (usually):
+
+```bash
+http://localhost:5173/
+```
